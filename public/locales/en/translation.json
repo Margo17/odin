@@ -1,0 +1,71 @@
+{
+  "loginForm": {
+    "loginTitle": "Log in to your account",
+    "doNotHaveAcc": "Do not have an account?",
+    "signUp": "Sign up",
+    "enterEmail": "Enter your email",
+    "remember": "Remember me",
+    "forgot": "Forgot password?"
+  },
+  "signinForm": {
+    "signinTitle": "Create an account",
+    "haveAcc": "Already have an account?",
+    "name": "Name",
+    "repeat": "Repeat Password",
+    "createAcc": "Create Account"
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Log in",
+    "signupWith": "or sign up with"
+  },
+  "toastMsg": {
+    "authentication": "Authenticating. Please wait.",
+    "authenticated": "Succesfully authenticated.",
+    "error": "There was an error.",
+    "emailExists": "Email already exists",
+    "accountCreated": "Account created.",
+    "creatingAcc": "Account is creating, please wait.",
+    "forgotPasswordSuccessTitle": "Email sent!",
+    "forgotPasswordSuccessDescription": "Check your Email inbox for a password reset link",
+    "forgotPasswordFailureTitle": "Email does not exist",
+    "forgotPasswordFailureDescription": "Check if the entered Email is correct",
+    "resetPasswordSuccessTitle": "Password reset successful!",
+    "resetPasswordFailureTitle": "Wrong URL!",
+    "resetPasswordFailureDescription": "Check email for a link to reset your password",
+    "successUpdate": "Succesfully updated"
+  },
+  "validation": {
+    "minimumLenght": "Minimum length is 4 characters.",
+    "validEmail": "Please enter a valid email address.",
+    "needPassword": "Password is required",
+    "passwordReq": "Password must contain at least eight characters, one uppercase letter, lowercase letter, number and special character.",
+    "repeatPassword": "Please repeat your password",
+    "passwordMatch": "Passwords do not match.",
+    "enterName": "Please enter your name",
+    "maxLenght": "Maximum length is 30 characters.",
+    "emailRequired": "Email is required",
+    "loading": "Loading, please wait"
+  },
+  "forgotPassword": {
+    "label": "Enter Your Email",
+    "confirm": "Confirm",
+    "return": "Return",
+    "info": "Password reset link was sent to this Email."
+  },
+  "resetPassword": {
+    "label1": "New password",
+    "label2": "Repeat password",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "profile": {
+    "editProfile": "Edit profile",
+    "signOut": "Sign Out",
+    "nickname": "Nickname",
+    "drop": "Drop here to upload...",
+    "selectAvatar": "Drag & drop your Avatar, or click to select",
+    "save": "Save"
+  }
+}

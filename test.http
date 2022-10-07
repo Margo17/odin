@@ -1,0 +1,17 @@
+POST http://localhost:8001/api/v1/token/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+###
+
+GET http://localhost:8001/api/v1/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNjI5MDk2LCJqdGkiOiI2N2E2N2JlYzI1NWI0ZDJiOGI0YjFlMGY2NGRmZGZiZiIsInVzZXJfaWQiOiJkNDgxMDQ0Ny1iMTIzLTQ3NzAtYmZiMS00YjhmZGU2ZjQ1YTQifQ.O4jcr5RYT7r4wxpuEAsrDXALKdV30kWLVBGFtCT_4Dc
+
+{
+
+}
+###

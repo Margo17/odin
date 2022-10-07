@@ -1,0 +1,81 @@
+POST http://localhost:8001/api/v1/token/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+###
+
+POST http://localhost:8001/api/v1/token/refresh/ HTTP/1.1
+content-type: application/json
+
+{
+    "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90e…QwIn0.2bMdkpHRnqv_zZQo6PvwtUDFyiXTPMGsfF_5o0OosG0"
+}
+###
+
+GET http://localhost:8001/api/v1/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MTk3MjU1LCJqdGkiOiI3MjAzNTg4Y2MwODg0ZjU2YWE1NDRiM2ZlZDczMzkzNCIsInVzZXJfaWQiOiJkNDgxMDQ0Ny1iMTIzLTQ3NzAtYmZiMS00YjhmZGU2ZjQ1YTQifQ.uqgSdnWD_uY-mOLJSBxsHXAR2UHGa-slr38YW5yGpgM
+###
+
+POST http://localhost:8001/api/v1/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "adminas",
+    "password": "adminas",
+    "email": "email@email.com"
+}
+###
+
+POST http://localhost:8001/api/v1/password_reset/ HTTP/1.1
+content-type: application/json
+
+{
+    "email": "email@email.com"
+}
+###
+
+POST http://localhost:8001/api/v1/password_reset/validate_token/ HTTP/1.1
+content-type: application/json
+
+{
+    "token": "40ed2744856"
+}
+###
+
+POST http://localhost:8001/api/v1/password_reset/confirm/ HTTP/1.1
+content-type: application/json
+
+{
+    "password": "Slaptas123!",
+    "token": "40ed2744856"
+}
+###
+
+GET http://localhost:8001/api/v1/portfolio/accounts/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MTkyMjA0LCJqdGkiOiI5OWM2ZWQzMDVlMDg0YzJkODY1YjRkMTYzYWI2ZGFhNSIsInVzZXJfaWQiOiJkNDgxMDQ0Ny1iMTIzLTQ3NzAtYmZiMS00YjhmZGU2ZjQ1YTQifQ.bxGrzzPrwLXpGOixQrRzISSObhf-x59T8Sacvl1-eAo
+###
+
+POST http://localhost:8001/api/v1/portfolio/accounts/create/ HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MjcwOTM3LCJqdGkiOiIxNTU0YjBiY2Y1MGQ0MGY1YjE4NTZiMDEyYjkwNDFlZSIsInVzZXJfaWQiOiJkNDgxMDQ0Ny1iMTIzLTQ3NzAtYmZiMS00YjhmZGU2ZjQ1YTQifQ.2KkfcBihPIzLtyERbZiOwSFdeXCl5LS3dLgZtaa4gVQ
+content-type: application/json
+
+{
+    "name": "name",
+    "baseCurrency": "baseCurr",
+    "exchange": "exchange",
+    "apiKey": "key",
+    "secret": "secret",
+    "primary": false,
+    "user": "d4810447-b123-4770-bfb1-4b8fde6f45a4"
+}
+###
+
+GET http://localhost:8001/api/v1/portfolio/assets/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MjcwOTM3LCJqdGkiOiIxNTU0YjBiY2Y1MGQ0MGY1YjE4NTZiMDEyYjkwNDFlZSIsInVzZXJfaWQiOiJkNDgxMDQ0Ny1iMTIzLTQ3NzAtYmZiMS00YjhmZGU2ZjQ1YTQifQ.2KkfcBihPIzLtyERbZiOwSFdeXCl5LS3dLgZtaa4gVQ
+###

@@ -1,0 +1,70 @@
+{
+  "loginForm": {
+    "loginTitle": "Prisijunkite prie savo paskyros",
+    "doNotHaveAcc": "Neturite paskyros?",
+    "signUp": "Užsiregistruokite",
+    "enterEmail": "Iveskite El. paštą",
+    "remember": "Prisiminti mane",
+    "forgot": "Pamiršote slaptažodį?"
+  },
+  "signinForm": {
+    "signinTitle": "Sukurkite paskyrą",
+    "haveAcc": "Turite paskyrą?",
+    "name": "Vardas",
+    "repeat": "Pakartokite slaptažodį",
+    "createAcc": "Sukurti paskyrą"
+  },
+  "form": {
+    "email": "El. paštas",
+    "password": "Slaptažodis",
+    "login": "Prisijungti",
+    "signupWith": "Arba užsiregistruokite su"
+  },
+  "toastMsg": {
+    "authentication": "Autentikavimas, prašome palaukti.",
+    "authenticated": "Sėkmingai patvirtintas autentiškumas.",
+    "error": "Įvyko klaida.",
+    "accountCreated": "Paskyra sukurta.",
+    "creatingAcc": "Kuriama paskyra, prašome palaukti.",
+    "forgotPasswordSuccessTitle": "Email sent!",
+    "forgotPasswordSuccessDescription": "Check your Email inbox for a password reset link",
+    "forgotPasswordFailureTitle": "Email does not exist",
+    "forgotPasswordFailureDescription": "Check if the entered Email is correct",
+    "resetPasswordSuccessTitle": "Password reset successful!",
+    "resetPasswordFailureTitle": "Wrong URL!",
+    "resetPasswordFailureDescription": "Check email for a link to reset your password",
+    "successUpdate": "Atnaujinta"
+  },
+  "validation": {
+    "minimumLenght": "Minimalus vartotojo vardas turi būti sudarytas iš 4 simbolių.",
+    "validEmail": "Įveskite teisingą el. pašto adresą.",
+    "needPassword": "Reikalingas slaptažodis",
+    "passwordReq": "Slaptažodį turi sudaryti ne mažiau kaip aštuoni simboliai: viena didžioji raidė, mažoji raidė, skaičius ir specialusis simbolis.",
+    "repeatPassword": "Please repeat your password",
+    "passwordMatch": "Slaptažodžiai nesutampa.",
+    "enterName": "Iveskite vartotojo vardą",
+    "maxLenght": "Maksimalus vartotojo vardas turi būti sudarytas iš 30 simbolių",
+    "emailRequired": "Reikalingas el. pašto adresas",
+    "loading": "Kraunama, prašome palaukti"
+  },
+  "forgotPassword": {
+    "label": "Enter Your Email",
+    "confirm": "Confirm",
+    "return": "Return",
+    "info": "Password reset link was sent to this Email."
+  },
+  "resetPassword": {
+    "label1": "New password",
+    "label2": "Repeat password",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "profile": {
+    "editProfile": "Redaguoti profilį",
+    "signOut": "Atsijungti",
+    "nickname": "Vartotojo vardas",
+    "drop": "Įkelkite čia...",
+    "selectAvatar": "Vilkite ir ikelkite čia, arba pasirinkite iš savo įrenginio",
+    "save": "Išsaugoti"
+  }
+}
